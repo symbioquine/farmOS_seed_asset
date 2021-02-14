@@ -1,0 +1,19 @@
+{
+  "name": "symbioquine/farmos_seed_asset",
+  "description": "A 'seed asset' module for farmOS.",
+  "type": "drupal-module",
+  "homepage": "https://github.com/symbioquine/farmOS_seed_asset",
+  "authors": [
+    {
+      "name": "Symbioquine",
+      "homepage": "https://github.com/symbioquine",
+      "role": "Maintainer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/symbioquine/farmOS_seed_asset/issues",
+    "source": "https://github.com/symbioquine/farmOS_seed_asset"
+  },
+  "license": "GPL-3.0-or-later",
+  "minimum-stability": "dev"
+}

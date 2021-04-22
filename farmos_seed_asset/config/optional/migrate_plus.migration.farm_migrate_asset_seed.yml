@@ -28,7 +28,23 @@ process:
   id:
     plugin: get
     source: id
-  # TODO: Seed-specific fields...
+  plant_type:
+    plugin: sub_process
+    source: field_farm_crop
+    process:
+      target_id:
+        plugin: migration_lookup
+        migration: farm_migrate_taxonomy_plant_type
+        source: tid
+  season:
+    plugin: sub_process
+    source: field_farm_season
+    process:
+      target_id:
+        plugin: migration_lookup
+        migration: farm_migrate_taxonomy_season
+        source: tid
+  # TODO: More seed-specific fields...
 migration_dependencies:
   required: {  }
   optional: {  }

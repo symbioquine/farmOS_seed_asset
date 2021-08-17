@@ -1,5 +1,5 @@
-name: farmOS Seed
-description: Provides a seed asset type for farmOS
+name: farmOS Seed Migration
+description: Provides custom migration support for seed assets.
 type: module
 package: farmOS Contrib
 core_version_requirement: ^9

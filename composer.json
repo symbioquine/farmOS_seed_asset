@@ -1,6 +1,6 @@
 {
   "name": "symbioquine/farmos_seed_asset",
-  "description": "A 'seed asset' module for farmOS.",
+  "description": "A seed asset migration module for farmOS.",
   "type": "drupal-module",
   "homepage": "https://github.com/symbioquine/farmOS_seed_asset",
   "authors": [
